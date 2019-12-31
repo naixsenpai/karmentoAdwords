@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%; // 1rem = 10px
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: normal;
+    src: url('https://cdn.jsdelivr.net/npm/iransans@1.0.0/ttf/IRANSansWeb.ttf');
+}
+
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: bold;
+    src: url('https://cdn.jsdelivr.net/npm/iransans@1.0.0/ttf/IRANSansWeb_Bold.ttf');
+}
+
+body {
+    box-sizing: border-box;
+    font-family: IRANSans, sans-serif;
+}

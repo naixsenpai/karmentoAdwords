@@ -1,0 +1,52 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: normal;
+  src: url("https://cdn.jsdelivr.net/npm/iransans@1.0.0/ttf/IRANSansWeb.ttf"); }
+
+@font-face {
+  font-family: IRANSans;
+  font-style: normal;
+  font-weight: bold;
+  src: url("https://cdn.jsdelivr.net/npm/iransans@1.0.0/ttf/IRANSansWeb_Bold.ttf"); }
+
+body {
+  box-sizing: border-box;
+  font-family: IRANSans, sans-serif; }
+
+@keyframes notice-me {
+  0% {
+    font-size: 4rem; }
+  50% {
+    font-size: 4.7rem; }
+  100% {
+    font-size: 4rem; } }
+
+.flex {
+  display: flex; }
+  .flex-row {
+    flex-direction: row; }
+  .flex-col {
+    flex-direction: column; }
+
+.justify-content-center {
+  justify-content: center; }
+
+.justify-content-between {
+  justify-content: space-between; }
+
+.justify-content-around {
+  justify-content: space-around; }
+
+.align-items-center {
+  align-items: center; }

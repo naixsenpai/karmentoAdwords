@@ -1,0 +1,26 @@
+{
+  "name": "karmento-adwrds-css-library",
+  "version": "1.0.0",
+  "description": "CSS/SASS library for karmento company google adwords with valid and popular viewports",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch" : "node-sass sass/main.scss ./style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/naixsenpai/karmentoAdwords.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Mohammad Heydari aka N'aixSenpai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/naixsenpai/karmentoAdwords/issues"
+  },
+  "homepage": "https://github.com/naixsenpai/karmentoAdwords#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
