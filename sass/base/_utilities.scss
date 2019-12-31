@@ -1,0 +1,150 @@
+.u-width {
+    &-100 {
+        width: 100%;
+    }
+
+    &-75 {
+        width: 75%;
+    }
+
+    &-50 {
+        width: 50%;
+    }
+
+    &-25 {
+        width: 25%;
+    }
+}
+
+.u-position {
+    &-a {
+        position: absolute;
+    }
+
+    &-r {
+        position: relative;
+    }
+}
+
+.u-margin {
+    &-xs {
+        margin: .5rem !important;
+    }
+
+    &-s {
+        margin: 1.5rem !important;
+    }
+
+    &-m {
+        margin: 3rem !important;
+    }
+
+    &-l {
+        margin: 5rem !important;
+    }
+
+    &-vert {
+        &-xs {
+            margin: .5rem 0rem !important;
+        }
+
+        &-s {
+            margin: 1.5rem 0rem !important;
+        }
+
+        &-m {
+            margin: 3rem 0rem !important;
+        }
+
+        &-l {
+            margin: 5rem 0rem !important;
+        }
+    }
+
+    &-horz {
+        &-xs {
+            margin: 0rem .5rem !important;
+        }
+
+        &-s {
+            margin: 0rem 1.5rem !important;
+        }
+
+        &-m {
+            margin: 0rem 3rem !important;
+        }
+
+        &-l {
+            margin: 0rem 5rem !important;
+        }
+    }
+
+    &-top {
+        &-xs {
+            margin-top: .5rem !important;
+        }
+        &-s {
+            margin-top: 1.5rem !important;
+        }
+
+        &-m {
+            margin-top: 3rem !important;
+        }
+
+        &-l {
+            margin-top: 5rem !important;
+        }
+    }
+
+    &-bottom {
+        &-xs {
+            margin-bottom: .5rem !important;
+        }
+        &-s {
+            margin-bottom: 1.5rem !important;
+        }
+
+        &-m {
+            margin-bottom: 3rem !important;
+        }
+
+        &-l {
+            margin-bottom: 5rem !important;
+        }
+    }
+
+    &-left {
+        &-xs {
+            margin-left: .5rem !important;
+        }
+        &-s {
+            margin-left: 1.5rem !important;
+        }
+
+        &-m {
+            margin-left: 3rem !important;
+        }
+
+        &-l {
+            margin-left: 5rem !important;
+        }
+    }
+
+    &-right {
+        &-xs {
+            margin-right: .5rem !important;
+        }
+        &-s {
+            margin-right: 1.5rem !important;
+        }
+
+        &-m {
+            margin-right: 3rem !important;
+        }
+
+        &-l {
+            margin-right: 5rem !important;
+        }
+    }
+
+}

@@ -50,3 +50,25 @@ body {
 
 .align-items-center {
   align-items: center; }
+
+.text-main {
+  color: #2169A1;
+  font-size: 1rem; }
+
+.text-white {
+  color: #fff;
+  font-size: 1rem; }
+
+.text-link {
+  color: #2169A1;
+  font-size: 1rem; }
+
+.text-free {
+  color: #2169A1;
+  font-size: 1rem; }
+
+.badge {
+  color: #2169A1;
+  font-size: 1rem; }
+  .badge-white {
+    color: #fff; }

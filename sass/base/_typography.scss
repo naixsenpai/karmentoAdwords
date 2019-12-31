@@ -1,0 +1,31 @@
+.text {
+    &-main {
+        color: $color-primary;
+        font-size: $main-font-size;
+    }
+
+    &-white {
+        color: $color-white;
+        font-size: $white-font-size;
+    }
+
+    &-link {
+        color: $color-primary;
+        font-size: $link-font-size;
+    }
+
+    &-free {
+        color: $color-primary;
+        font-size: $free-font-size;
+    }
+}
+
+.badge {
+
+    color: $color-primary;
+    font-size: $badge-font-size;
+
+    &-white {
+        color: $color-white;
+    }
+}
