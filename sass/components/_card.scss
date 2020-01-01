@@ -4,15 +4,15 @@
     }
 
     &-outside {
-        clip-path: polygon(3% 0, 100% 0, 100% 100%, 3% 100%, 3% 70%, 0 50%, 3% 30%); // < horz
-        // clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 30% 85%, 50% 95%, 70% 85%, 0% 85%); // | vertical
+        // clip-path: polygon(3% 0, 100% 0, 100% 100%, 3% 100%, 3% 70%, 0 50%, 3% 30%); // < horz
+        clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 30% 85%, 50% 95%, 70% 85%, 0% 85%); // | vertical
         background-color: $color-white;
         position: relative;
         width: $card-width;
         height: $card-height;
         margin-top: 2.5rem; // image
-        margin-left: -1rem; // < horz and black border
-        // margin-bottom: -4rem; // | vertical and black border
+        // margin-left: -1rem; // < horz and black border
+        margin-bottom: -3rem; // | vertical and black border
     }
 
     &-inside {
@@ -21,8 +21,8 @@
         left: .5rem;
         right: .5rem;
         bottom: .5rem;
-        clip-path: polygon(3% 0, 100% 0, 100% 100%, 3% 100%, 3% 60%, 0 50%, 3% 40%); // < horz
-        // clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 45% 85%, 50% 95%, 55% 85%, 0% 85%); // | vertical
+        // clip-path: polygon(3% 0, 100% 0, 100% 100%, 3% 100%, 3% 60%, 0 50%, 3% 40%); // < horz
+        clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 45% 85%, 50% 95%, 55% 85%, 0% 85%); // | vertical
         background-color: $color-secondary;
         padding: 1rem;
     }

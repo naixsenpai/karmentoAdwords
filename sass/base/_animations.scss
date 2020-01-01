@@ -43,6 +43,7 @@
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
         height: $free-font-size;
+        width: 100%;
 
         &-1 {
             animation-name: anim-1;
