@@ -51,38 +51,47 @@ body {
 .align-items-center {
   align-items: center; }
 
-.text-main {
-  color: #2169A1;
-  font-size: 3rem; }
-
-.text-white {
-  color: #fff;
-  font-size: 1rem; }
-
-.text-link {
-  color: #2169A1;
-  font-size: 1rem; }
-
-.text-free {
-  color: #2169A1;
-  font-size: 1rem; }
+.text {
+  font-weight: bold; }
+  .text-main {
+    color: #2169A1;
+    font-size: 3rem; }
+  .text-white {
+    color: #fff;
+    font-size: 1.3rem; }
+  .text-link {
+    color: #2169A1;
+    font-size: 1rem; }
+  .text-free {
+    color: #2169A1;
+    font-size: 1rem; }
 
 .badge {
+  display: inline-block;
+  font-weight: bold;
   color: #2169A1;
-  font-size: 1rem; }
+  font-size: 1rem;
+  background-color: #fff;
+  text-align: center;
+  width: fit-content;
+  border-radius: 10rem;
+  padding: 0 .5rem; }
   .badge-white {
-    color: #fff; }
+    display: inline-block;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem; }
 
-.u-width-100 {
+.w-100 {
   width: 100%; }
 
-.u-width-75 {
+.w-75 {
   width: 75%; }
 
-.u-width-50 {
+.w-50 {
   width: 50%; }
 
-.u-width-25 {
+.w-25 {
   width: 25%; }
 
 .u-position-a {
@@ -175,8 +184,111 @@ body {
 .u-margin-right-l {
   margin-right: 5rem !important; }
 
+.u-padding-xs {
+  padding: .5rem !important; }
+
+.u-padding-s {
+  padding: 1.5rem !important; }
+
+.u-padding-m {
+  padding: 3rem !important; }
+
+.u-padding-l {
+  padding: 5rem !important; }
+
+.u-padding-vert-xs {
+  padding: .5rem 0rem !important; }
+
+.u-padding-vert-s {
+  padding: 1.5rem 0rem !important; }
+
+.u-padding-vert-m {
+  padding: 3rem 0rem !important; }
+
+.u-padding-vert-l {
+  padding: 5rem 0rem !important; }
+
+.u-padding-horz-xs {
+  padding: 0rem .5rem !important; }
+
+.u-padding-horz-s {
+  padding: 0rem 1.5rem !important; }
+
+.u-padding-horz-m {
+  padding: 0rem 3rem !important; }
+
+.u-padding-horz-l {
+  padding: 0rem 5rem !important; }
+
+.u-padding-top-xs {
+  padding-top: .5rem !important; }
+
+.u-padding-top-s {
+  padding-top: 1.5rem !important; }
+
+.u-padding-top-m {
+  padding-top: 3rem !important; }
+
+.u-padding-top-l {
+  padding-top: 5rem !important; }
+
+.u-padding-bottom-xs {
+  padding-bottom: .5rem !important; }
+
+.u-padding-bottom-s {
+  padding-bottom: 1.5rem !important; }
+
+.u-padding-bottom-m {
+  padding-bottom: 3rem !important; }
+
+.u-padding-bottom-l {
+  padding-bottom: 5rem !important; }
+
+.u-padding-left-xs {
+  padding-left: .5rem !important; }
+
+.u-padding-left-s {
+  padding-left: 1.5rem !important; }
+
+.u-padding-left-m {
+  padding-left: 3rem !important; }
+
+.u-padding-left-l {
+  padding-left: 5rem !important; }
+
+.u-padding-right-xs {
+  padding-right: .5rem !important; }
+
+.u-padding-right-s {
+  padding-right: 1.5rem !important; }
+
+.u-padding-right-m {
+  padding-right: 3rem !important; }
+
+.u-padding-right-l {
+  padding-right: 5rem !important; }
+
 .card-main {
   border: 0.3rem solid #000; }
+
+.card-outside {
+  clip-path: polygon(3% 0, 100% 0, 100% 100%, 3% 100%, 3% 70%, 0 50%, 3% 30%);
+  background-color: #fff;
+  position: relative;
+  width: 53rem;
+  height: 7rem;
+  margin-top: .7rem;
+  margin-left: -1rem; }
+
+.card-inside {
+  position: absolute;
+  top: .5rem;
+  left: .5rem;
+  right: .5rem;
+  bottom: .5rem;
+  clip-path: polygon(3% 0, 100% 0, 100% 100%, 3% 100%, 3% 60%, 0 50%, 3% 40%);
+  background-color: #EF4E24;
+  padding: 1rem; }
 
 .logo-image {
   position: absolute;
@@ -184,7 +296,7 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   width: 10rem;
-  top: -.3rem;
+  top: -.9rem;
   background-color: #fff; }
 
 .logo-border {

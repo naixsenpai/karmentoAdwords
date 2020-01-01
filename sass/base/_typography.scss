@@ -1,4 +1,7 @@
 .text {
+
+    font-weight: bold;
+
     &-main {
         color: $color-primary;
         font-size: $main-font-size;
@@ -21,11 +24,24 @@
 }
 
 .badge {
+    
+    display: inline-block;
 
+    font-weight: bold;
     color: $color-primary;
     font-size: $badge-font-size;
+    background-color: $color-white;
+    text-align: center;
+
+    width: fit-content;
+
+    border-radius: 10rem;
+    padding: 0 .5rem;
 
     &-white {
+        display: inline-block;
         color: $color-white;
+        font-weight: bold;
+        font-size: $badge-font-size;
     }
 }
