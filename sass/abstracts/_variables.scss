@@ -10,19 +10,19 @@ $color-black: #000;
 $default-font-size: 1.6rem; // 16px
 
 // TYPOGRAPHY
-$main-font-size : 7rem;
-$white-font-size : 5.3rem;
+$main-font-size : 5rem;
+$white-font-size : 3rem;
 $link-font-size : 5rem;
-$free-font-size : 8rem;
-$badge-font-size : 4rem;
+$free-font-size : 7rem;
+$badge-font-size : 2rem;
 $download-font-size : 6rem;
 
 // IMAGE
 $logo-width : 19rem;
 
 // CARd
-$card-width : 80rem;
-$card-height : 55rem;
+$card-width : 100rem;
+$card-height : 14rem;
 
 /*
 320 * 50
@@ -37,4 +37,17 @@ $download-font-size : 3rem;
 
 // IMAGE
 $logo-width : 10rem;
+*/
+
+/*
+320.480
+$card-height : 55rem;
+$free-font-size : 8rem;
+*/
+
+/*
+336 * 280
+$card-width : 80rem;
+$card-height : 36rem;
+$white-font-size : 5.3rem;
 */

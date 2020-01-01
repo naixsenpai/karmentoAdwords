@@ -17,12 +17,6 @@ $logo-width : 10rem;
 $card-height : 55rem;
 $free-font-size : 8rem;
 */
-/*
-336 * 280
-$card-width : 80rem;
-$card-height : 36rem;
-$white-font-size : 5.3rem;
-*/
 *,
 *::after,
 *::before {
@@ -31,7 +25,7 @@ $white-font-size : 5.3rem;
   box-sizing: inherit; }
 
 html {
-  font-size: 31.25%; }
+  font-size: 62.5%; }
 
 @font-face {
   font-family: IRANSans;
@@ -49,16 +43,13 @@ body {
   box-sizing: border-box;
   font-family: IRANSans, sans-serif; }
 
-.main-container {
-  height: 25rem; }
-
 @keyframes notice-me {
   0% {
-    font-size: 2.3rem; }
+    font-size: 4.6rem; }
   50% {
-    font-size: 3rem; }
+    font-size: 5.3rem; }
   100% {
-    font-size: 2.3rem; } }
+    font-size: 4.6rem; } }
 
 @keyframes anim-1 {
   0%, 8.3% {
@@ -86,14 +77,13 @@ body {
 
 .animation-notice-me {
   animation: notice-me 1s infinite;
-  height: 3rem; }
+  height: 5.3rem; }
 
 .animation-slider {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  top: 0;
   animation-duration: 5s;
   animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
@@ -121,9 +111,6 @@ body {
 .justify-content-around {
   justify-content: space-around; }
 
-.justify-content-baseline {
-  justify-content: baseline; }
-
 .align-items-center {
   align-items: center; }
 
@@ -131,10 +118,10 @@ body {
   font-weight: bold; }
   .text-main {
     color: #2169A1;
-    font-size: 5rem; }
+    font-size: 7rem; }
   .text-white {
     color: #fff;
-    font-size: 3rem; }
+    font-size: 5.3rem; }
   .text-link {
     color: #2169A1;
     font-size: 5rem;
@@ -147,7 +134,7 @@ body {
   display: inline-block;
   font-weight: bold;
   color: #2169A1;
-  font-size: 2rem;
+  font-size: 4rem;
   background-color: #fff;
   text-align: center;
   width: fit-content;
@@ -157,7 +144,7 @@ body {
     display: inline-block;
     color: #fff;
     font-weight: bold;
-    font-size: 2rem; }
+    font-size: 4rem; }
 
 .w-100 {
   width: 100%; }
@@ -389,13 +376,13 @@ body {
   border: 0.5rem solid #000; }
 
 .card-outside {
-  clip-path: polygon(3% 0, 100% 0, 100% 100%, 3% 100%, 3% 70%, 0 50%, 3% 30%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 30% 85%, 50% 95%, 70% 85%, 0% 85%);
   background-color: #fff;
   position: relative;
-  width: 100rem;
-  height: 14rem;
+  width: 80rem;
+  height: 36rem;
   margin-top: 2.5rem;
-  margin-left: -1rem; }
+  margin-bottom: -4rem; }
 
 .card-inside {
   position: absolute;
@@ -403,7 +390,7 @@ body {
   left: .5rem;
   right: .5rem;
   bottom: .5rem;
-  clip-path: polygon(3% 0, 100% 0, 100% 100%, 3% 100%, 3% 60%, 0 50%, 3% 40%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 45% 85%, 50% 95%, 55% 85%, 0% 85%);
   background-color: #EF4E24;
   padding: 1rem; }
 
@@ -423,5 +410,5 @@ body {
 
 .slider-container {
   height: 7rem;
-  width: 35rem;
+  width: 100vw;
   position: relative; }

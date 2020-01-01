@@ -7,7 +7,8 @@
 }
 
 html {
-    font-size: 62.5%; // 1rem = 10px
+    // font-size: 62.5%; // 1rem = 10px
+    font-size: 31.25%; // 1rem = 5px;
 }
 
 @font-face {
@@ -27,4 +28,8 @@ html {
 body {
     box-sizing: border-box;
     font-family: IRANSans, sans-serif;
+}
+
+.main-container {
+    height: 25rem;
 }

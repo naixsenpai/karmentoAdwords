@@ -37,8 +37,8 @@
     }
 
     &-slider {
-        position: absolute;
         @include absCenter;
+        top: 0;
         animation-duration: 5s;
         animation-timing-function: ease-in-out;
         animation-iteration-count: infinite;
