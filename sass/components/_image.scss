@@ -1,0 +1,14 @@
+.logo {
+    &-image {
+        @include absCenter;
+        width: $logo-width; 
+        top: -.3rem;
+        background-color: $color-white;
+    }
+    
+    &-border {
+        text-align: center;
+        position: relative;
+        width: 100%;
+    }
+}

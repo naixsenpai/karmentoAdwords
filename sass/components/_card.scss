@@ -1,0 +1,25 @@
+.card {
+    &-main {
+        border: .3rem solid $color-black;
+    }
+
+    // &-outside {
+    //     clip-path: polygon(10% 0, 100% 0, 100% 100%, 10% 100%, 10% 70%, 0 50%, 10% 30%);
+    //     background-color: $color-white;
+    //     position: relative;
+    //     width: 36rem;
+    //     margin: 0 .2rem;
+    //     margin-bottom: -3rem;
+    // }
+
+    // &-inside {
+    //     position: absolute;
+    //     top: .5rem;
+    //     left: .5rem;
+    //     right: .5rem;
+    //     bottom: .5rem;
+    //     clip-path: polygon(10% 0, 100% 0, 100% 100%, 10% 100%, 10% 60%, 0 50%, 10% 40%);
+    //     background-color: $color-secondary;
+    //     padding: 2rem;
+    // }
+}
