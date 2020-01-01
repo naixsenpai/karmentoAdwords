@@ -1,3 +1,17 @@
+/*
+320 * 50
+
+// TYPOGRAPHY
+$main-font-size : 3rem;
+$white-font-size : 1.3rem;
+$link-font-size : 2rem;
+$free-font-size : 3rem;
+$badge-font-size : 1rem;
+$download-font-size : 3rem;
+
+// IMAGE
+$logo-width : 10rem;
+*/
 *,
 *::after,
 *::before {
@@ -26,11 +40,56 @@ body {
 
 @keyframes notice-me {
   0% {
-    font-size: 4rem; }
+    font-size: 4.6rem; }
   50% {
-    font-size: 4.7rem; }
+    font-size: 5.3rem; }
   100% {
-    font-size: 4rem; } }
+    font-size: 4.6rem; } }
+
+@keyframes anim-1 {
+  0%, 8.3% {
+    opacity: 0; }
+  8.3%, 25% {
+    opacity: 1; }
+  33.33%, 100% {
+    opacity: 0; } }
+
+@keyframes anim-2 {
+  0%, 33.33% {
+    opacity: 0; }
+  41.63%, 58.29% {
+    opacity: 1; }
+  66.66%, 100% {
+    opacity: 0; } }
+
+@keyframes anim-3 {
+  0%, 66.66% {
+    opacity: 0; }
+  74.96%, 91.62% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
+
+.animation-notice-me {
+  animation: notice-me 1s infinite;
+  height: 5.3rem; }
+
+.animation-slider {
+  position: absolute;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-duration: 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  height: 8rem; }
+  .animation-slider-1 {
+    animation-name: anim-1; }
+  .animation-slider-2 {
+    animation-name: anim-2; }
+  .animation-slider-3 {
+    animation-name: anim-3; }
 
 .flex {
   display: flex; }
@@ -55,33 +114,33 @@ body {
   font-weight: bold; }
   .text-main {
     color: #2169A1;
-    font-size: 3rem; }
+    font-size: 7rem; }
   .text-white {
     color: #fff;
-    font-size: 1.3rem; }
+    font-size: 5.3rem; }
   .text-link {
     color: #2169A1;
-    font-size: 2rem;
+    font-size: 5rem;
     text-decoration: none; }
   .text-free {
     color: #2169A1;
-    font-size: 3rem; }
+    font-size: 8rem; }
 
 .badge {
   display: inline-block;
   font-weight: bold;
   color: #2169A1;
-  font-size: 1rem;
+  font-size: 4rem;
   background-color: #fff;
   text-align: center;
   width: fit-content;
   border-radius: 10rem;
-  padding: 0 .5rem; }
+  padding: 0 1.3rem; }
   .badge-white {
     display: inline-block;
     color: #fff;
     font-weight: bold;
-    font-size: 1rem; }
+    font-size: 4rem; }
 
 .w-100 {
   width: 100%; }
@@ -289,35 +348,37 @@ body {
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  font-size: 3rem;
-  width: 21rem; }
+  font-size: 6rem;
+  box-shadow: 0px 13px 16px -13px black;
+  width: 48rem; }
 
 .btn::after {
   content: "";
   display: inline-block;
   height: 112%;
-  width: 104%;
+  width: 103%;
   border-radius: 10rem;
   position: absolute;
   z-index: -1; }
 
 .btn-secondary {
-  background-color: #EF4E24;
+  background: #ef4e24;
+  background: linear-gradient(0deg, #ef4e24 0%, #ff7a59 100%);
   color: #fff; }
   .btn-secondary::after {
-    border: 0.1rem solid #EF4E24; }
+    border: 0.3rem solid #EF4E24; }
 
 .card-main {
-  border: 0.3rem solid #000; }
+  border: 0.5rem solid #000; }
 
 .card-outside {
-  clip-path: polygon(3% 0, 100% 0, 100% 100%, 3% 100%, 3% 70%, 0 50%, 3% 30%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 30% 85%, 50% 95%, 70% 85%, 0% 85%);
   background-color: #fff;
   position: relative;
-  width: 53rem;
-  height: 7rem;
-  margin-top: .7rem;
-  margin-left: -1rem; }
+  width: 80rem;
+  height: 55rem;
+  margin-top: 2.5rem;
+  margin-bottom: -4rem; }
 
 .card-inside {
   position: absolute;
@@ -325,7 +386,7 @@ body {
   left: .5rem;
   right: .5rem;
   bottom: .5rem;
-  clip-path: polygon(3% 0, 100% 0, 100% 100%, 3% 100%, 3% 60%, 0 50%, 3% 40%);
+  clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 45% 85%, 50% 95%, 55% 85%, 0% 85%);
   background-color: #EF4E24;
   padding: 1rem; }
 
@@ -334,7 +395,7 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 10rem;
+  width: 19rem;
   top: -.9rem;
   background-color: #fff; }
 
@@ -342,3 +403,8 @@ body {
   text-align: center;
   position: relative;
   width: 100%; }
+
+.slider-container {
+  height: 8rem;
+  width: 100vw;
+  position: relative; }

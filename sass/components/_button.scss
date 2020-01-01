@@ -1,4 +1,5 @@
 .btn {
+
     &,
     &:link,
     &:visited {
@@ -13,27 +14,29 @@
         align-items: center;
         font-weight: bold;
         font-size: $download-font-size;
-
+        box-shadow: 0px 13px 16px -13px rgba(0, 0, 0, 1);
         // changAble
 
-        width: 21rem;
+        width: 48rem;
     }
 
     &::after {
         content: "";
         display: inline-block;
         height: 112%;
-        width: 104%;
+        width: 103%;
         border-radius: 10rem;
         position: absolute;
         z-index: -1;
     }
 
     &-secondary {
-        background-color: $color-secondary;
+        background: rgb(239, 78, 36);
+        background: linear-gradient(0deg, rgba(239, 78, 36, 1) 0%, rgb(255, 122, 89) 100%);
         color: $color-white;
+
         &::after {
-            border: .1rem solid $color-secondary;
+            border: .3rem solid $color-secondary;
         }
     }
 }
