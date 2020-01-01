@@ -1,0 +1,39 @@
+.btn {
+    &,
+    &:link,
+    &:visited {
+        text-transform: uppercase;
+        text-decoration: none;
+        padding: 0rem 3rem;
+        border-radius: 10rem;
+        cursor: pointer;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+        font-size: $download-font-size;
+
+        // changAble
+
+        width: 21rem;
+    }
+
+    &::after {
+        content: "";
+        display: inline-block;
+        height: 112%;
+        width: 104%;
+        border-radius: 10rem;
+        position: absolute;
+        z-index: -1;
+    }
+
+    &-secondary {
+        background-color: $color-secondary;
+        color: $color-white;
+        &::after {
+            border: .1rem solid $color-secondary;
+        }
+    }
+}
